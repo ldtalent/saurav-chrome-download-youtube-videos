@@ -1,0 +1,20 @@
+{
+    "name": "Youtube Downloader",
+    "version": "1.0",
+    "manifest_version": 2,
+
+    "description": "Download from youtube",
+    "page_action": {
+        "default_title": "Download Images from Google",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "downloads",
+        "activeTab",
+        "declarativeContent"
+    ],
+    "background" : {
+        "scripts" : ["background.js"],
+        "persistent" : false
+    }
+}
